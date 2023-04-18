@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import Header from './component/Header';
+import Contact from './component/Header';
 import Home from './component/Home';
 import NavBar from './component/NavBar';
 
@@ -11,12 +11,11 @@ function App() {
     <div>
       <NavBar />
       <Routes>
-        <Route path='/header' element={<Header />}/>
         <Route path='/' element={<Home />} />
         <Route path='/' element={<Home />} />
         <Route path='/' element={<Home />} />
+        <Route path='/contact' element={<Contact />}/>
       </Routes>
-    {/* <Header /> */}
     </div>
   );
 }

@@ -4,13 +4,15 @@
   box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: none;
 }
-h1{
+
+h1 {
   text-decoration: none;
   color: #000000;
 }
+
 nav {
   background-color: #f3f3f3;
   margin: auto;
@@ -44,8 +46,10 @@ nav {
 }
 
 
-nav2 {
-  background-color: #9e9ea1;
+.navBar2 {
+  background: linear-gradient(90deg, #3780af 0%, #103f6b 60%);
+  border-top: 2px solid #ddd;
+  box-shadow: 0px -2px 2px 2px #ddd;
   margin: 2.4rem auto auto auto;
   padding: 5px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -53,10 +57,9 @@ nav2 {
   width: 100%;
 }
 
-nav2 a{
+.navBar2 a {
   border-left: 1px solid;
   color: #fff;
   padding: 0 10px;
   margin-right: 0;
 }
-
