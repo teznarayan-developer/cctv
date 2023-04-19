@@ -1,7 +1,16 @@
-img {
+body {
+    background-color: black;
+}
+
+.head-image img {
     background-repeat: no-repeat;
     width: 100%;
     height: 35rem;
+    opacity: 0.3;
+}
+
+.head-image img:hover{
+    opacity: 0.8;
 }
 
 hr {
@@ -14,9 +23,10 @@ hr {
     font-size: 3rem;
 }
 
-/* .par{
-    font-family: 'Courier New', Courier, monospace;
-} */
+.par {
+    /* font-family: 'Courier New', Courier, monospace; */
+    color: white;
+}
 
 .home {
     position: absolute;
@@ -32,14 +42,21 @@ hr {
 }
 
 .introduction {
+    color: white;
     line-height: 1.9;
     margin: 1rem 5rem 2rem 5rem;
     text-align: center;
 }
 
+.introduction p {
+    text-align: left;
+    /* margin: 2rem 9rem auto 9rem; */
+}
+
 .cctv-install {
     line-height: 1.9;
-    margin: 2rem 9rem auto 9rem;
+    margin: 1rem 5rem 2rem 5rem;
+    /* margin: 2rem 9rem auto 9rem; */
 }
 
 .cctv-install img {
@@ -53,7 +70,8 @@ hr {
 
 .cctv-monitoring {
     line-height: 1.9;
-    margin: 2rem 9rem auto 9rem;
+    /* margin: 2rem 9rem auto 9rem; */
+    margin: 1rem 5rem 2rem 5rem;
 }
 
 .cctv-monitoring img {
@@ -76,7 +94,7 @@ hr {
     color: #d9a359;
     font-weight: bold;
     padding-right: 10px;
-    margin-left: 2.9rem;
+    margin-left: 22rem;
 }
 
 .list-holder {
@@ -109,8 +127,12 @@ hr {
     margin: 1rem 1.5rem;
 }
 
+.aling-center h3 {
+    color: black;
+}
+
 h3 {
-    color: #0064af;
+    color: #e4e4e4;
     font-size: 24px;
     font-weight: bolder;
     margin: 1.5rem auto;
@@ -152,8 +174,13 @@ h3 {
 }
 
 h2 {
+    color: white;
     text-align: center;
     margin: 2rem auto;
+}
+
+.Frequently-Asked-Questions-bottom {
+    border: 2px solid white;
 }
 
 .get-in-touch-containt {
@@ -164,19 +191,20 @@ h2 {
     padding: 10px;
 }
 
-.get-in-touch{
+.get-in-touch {
     width: 50%;
     padding: 19px;
+    margin: 3rem auto;
 }
 
-.get-in-touch-right{
+.get-in-touch-right {
     background: #fafafa;
     padding: 10px;
     box-shadow: 0 0 15px #b7b5b5;
     margin: 0.2rem;
 }
 
-.get-in-touch-head h2{
+.get-in-touch-head h2 {
     color: rgb(129, 189, 245);
     font-family: 'Courier New', Courier, monospace;
     font-size: 2.3rem;
@@ -184,12 +212,13 @@ h2 {
     margin: auto;
 }
 
-.get-in-touch-right-containt h2{
+.get-in-touch-right-containt h2 {
+    color: black;
     text-align: left;
     margin-top: 0.5rem;
 }
 
-.get-in-touch-head p{
+.get-in-touch-head p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: lighter;
     text-align: left;
@@ -197,13 +226,104 @@ h2 {
     line-height: 1.6;
 }
 
-.get-in-touch-head-icons{
-   display: inline-block;
-   margin: auto 11.3rem;
+.get-in-touch-head-icons {
+    color: black;
+    display: inline-block;
+    margin: auto 11.3rem;
 }
 
-.get-in-touch-head-icons img{
-    width: 5rem;
-    height: 5rem;
-    padding: 1rem;
+.get-in-touch-head-icons img {
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    margin: auto 0.5rem;
+}
+
+.horizontal {
+    border-style: none;
+    border-width: 6px;
+    border-top-style: dotted;
+    color: grey;
+    width: 3%;
+    margin: auto 40rem;
+}
+
+.horizontal-about {
+    border: 2px solid wheat;
+}
+
+.about {
+    opacity: 0.75;
+    position: relative;
+}
+
+.about-containt  {
+    color: white;
+    position: absolute;
+    top: 2rem;
+    left: 5rem;
+}
+
+.about img {
+    height: 36rem;
+    margin: auto;
+    width: 100%;
+}
+
+.about-link{
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 17px;
+    line-height: 1.9;
+    position: relative;
+}
+
+.about-link a{
+    color: white;
+}
+
+.about-link2{
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 17px;
+    position: absolute;
+    left: 5rem;
+    line-height: 1.9;
+}
+
+.about-link2 a{
+    color: white;
+}
+
+.about-link3{
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 17px;
+    position: absolute;
+    left: 12rem;
+    line-height: 1.9;
+}
+
+.about-link3 a{
+    color: white;
+}
+
+.about-link a:hover {
+    color: rgb(250, 0, 0);
+}
+
+.about-social-media{
+   position: absolute;
+   bottom: 2rem;
+   left: 10rem;
+}
+
+.about-social-media-link img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    border-radius: 5rem;
+}
+.about-social-media img:hover{
+        background-color: red;
 }

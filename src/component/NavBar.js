@@ -16,7 +16,7 @@ function NavBar() {
         </div>
       </nav>
       <hr />
-      <div className='navbar'>
+      {/* <div className='navbar'>
         <div className='navBar2'>
           <div>
             <a href="#">fb</a>
@@ -24,7 +24,7 @@ function NavBar() {
             <a href="#">insta</a>
           </div>
         </div>
-      </div>
+      </div> */}
     </div >
   )
 }
