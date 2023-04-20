@@ -1,0 +1,19 @@
+.about-us {
+    text-align: left;
+    margin: 2rem 5rem 2rem 5rem;
+}
+
+.about-us h3 {
+    text-align: left;
+    margin: 1rem 5rem auto 5rem;
+}
+
+.about-us p {
+    color: white;
+    line-height: 1.9;
+    margin: 1rem 5rem 2rem 5rem;
+}
+
+.about-us p:hover {
+    
+}

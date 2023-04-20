@@ -2,15 +2,20 @@ body {
     background-color: black;
 }
 
-.head-image img {
+/* .head-image img {
     background-repeat: no-repeat;
     width: 100%;
     height: 35rem;
-    opacity: 0.3;
+    opacity: 0.9;
+} */
+
+.head-image{
+    width: 100%;
+    height: 35rem;
 }
 
-.head-image img:hover{
-    opacity: 0.8;
+.head-image img:hover {
+    opacity: 0.3;
 }
 
 hr {
@@ -252,12 +257,14 @@ h2 {
     border: 2px solid wheat;
 }
 
+
+
 .about {
     opacity: 0.75;
     position: relative;
 }
 
-.about-containt  {
+.about-containt {
     color: white;
     position: absolute;
     top: 2rem;
@@ -270,7 +277,7 @@ h2 {
     width: 100%;
 }
 
-.about-link{
+.about-link {
     display: inline-flex;
     flex-direction: column;
     font-size: 17px;
@@ -278,11 +285,17 @@ h2 {
     position: relative;
 }
 
-.about-link a{
+.about-link a {
     color: white;
 }
 
-.about-link2{
+.about-link a:hover {
+    color: rgb(250, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.about-link2 {
     display: inline-flex;
     flex-direction: column;
     font-size: 17px;
@@ -291,11 +304,17 @@ h2 {
     line-height: 1.9;
 }
 
-.about-link2 a{
+.about-link2 a:hover {
+    color: rgb(250, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.about-link2 a {
     color: white;
 }
 
-.about-link3{
+.about-link3 {
     display: inline-flex;
     flex-direction: column;
     font-size: 17px;
@@ -304,26 +323,55 @@ h2 {
     line-height: 1.9;
 }
 
-.about-link3 a{
+.about-link3 a:hover {
+    color: rgb(250, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.about-link3 a {
     color: white;
 }
 
-.about-link a:hover {
-    color: rgb(250, 0, 0);
+.about-social-media {
+    position: absolute;
+    bottom: 2rem;
+    left: 10rem;
 }
 
-.about-social-media{
-   position: absolute;
-   bottom: 2rem;
-   left: 10rem;
+.about-social-media-link {
+    display: inline-flex;
+    position: absolute;
+    left: 55rem;
+
 }
 
-.about-social-media-link img{
+.about-social-media-link img {
     width: 2rem;
     height: 2rem;
     margin-left: 1rem;
-    border-radius: 5rem;
+    /* border-radius: 5rem; */
 }
-.about-social-media img:hover{
-        background-color: red;
+
+.facebook {
+    border-radius: 1rem;
+}
+
+.instagram {
+    border-radius: 10px;
+}
+
+.linkden {
+    border-radius: 5px;
+}
+
+.about-social-media img:hover {
+    background-color: rgb(250, 0, 0);
+}
+
+.footer h4 {
+    color: gray;
+    font-size: 10px;
+    text-align: center;
+    margin: 0.5rem auto;
 }

@@ -6,8 +6,10 @@ function Home() {
   return (
     <>
       <div className='all-pages-contant'>
+        <hr />
         <div className='head-image'>
-          <img src="../images/cctv-install.webp" alt="cctv" />
+          {/* <img src="../images/cctv-install.webp" alt="cctv" /> */}
+          {/* <img src="../images/cctv-favicon.png" alt="cctv" /> */}
         </div>
         <div className='home'>
           <h1 className='heading1'>Your Security</h1>
@@ -117,9 +119,9 @@ function Home() {
         </div>
         <hr className='horizontal-about' />
         <div className='about'>
-          <img src="../images/cctv-about-img.jpg" alt="bullet-cctv" />
+          <img src="../images/about-background.jpg" alt="bullet-cctv" />
           <div className='about-containt'>
-            <h3>About us</h3>
+            {/* <h3>About us</h3> */}
             <div className='about-link'>
               <a href="">DM</a>
               <a href="">CCTV</a>
@@ -132,21 +134,26 @@ function Home() {
               <a href="">DM</a>
             </div>
             <div className='about-link3'>
-              <a href="">PC</a>
-              <a href="">Laptop</a>
-              <a href="">Computer</a>
-              <a href="">Graphics</a>
-              <a href="">DM</a>
+              <a href="">link</a>
+              <a href="">link</a>
+              <a href="">link</a>
+              <a href="">link</a>
+              <a href="">link</a>
             </div>
           </div>
           <div className='about-social-media'>
             <div className='about-social-media-link'>
-              <a href="#"><img src="../images/facebook.png" alt="fb" /></a>
-              <a href="#"><img src="../images/facebook.png" alt="fb" /></a>
-              <a href="#"><img src="../images/facebook.png" alt="fb" /></a>
+              <a href="#"><img className='facebook' src="../images/facebook.png" alt="fb" /></a>
+              <a href="#"><img className='instagram' src="../images/instagram-icon.png" alt="fb" /></a>
+              <a href="#"><img className='linkden' src="../images/linkden-icon.png" alt="fb" /></a>
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <footer className='footer'>
+          <h4>Copyright @ 2023 </h4>
+        </footer>
       </div>
     </>
   )

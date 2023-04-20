@@ -4,10 +4,11 @@ import { NavLink } from 'react-router-dom';
 
 function NavBar() {
   return (
+    <>
     <div>
       <nav>
         <div className="navbar">
-          <a href="https://incretech.in/"><h1>Incretech</h1></a>
+          <a href="https://incretech.in/" target='blank'><h1>Incretech</h1></a>
           <div className='navLink'>
             <NavLink className="link" to="/">Home</NavLink>
             <NavLink className="link" to="/contact">Contact</NavLink>
@@ -26,6 +27,8 @@ function NavBar() {
         </div>
       </div> */}
     </div >
+    {/* <hr className='hori' /> */}
+    </>
   )
 }
 
