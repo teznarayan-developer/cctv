@@ -9,7 +9,7 @@ body {
     opacity: 0.9;
 } */
 
-.head-image{
+.head-image {
     width: 100%;
     height: 35rem;
 }
@@ -373,5 +373,5 @@ h2 {
     color: gray;
     font-size: 10px;
     text-align: center;
-    margin: 0.5rem auto;
+    margin: 2rem auto 0.3rem auto;
 }

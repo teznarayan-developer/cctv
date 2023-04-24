@@ -4,6 +4,7 @@
 }
 
 .about-us h3 {
+    color: brown;
     text-align: left;
     margin: 1rem 5rem auto 5rem;
 }
@@ -14,6 +15,88 @@
     margin: 1rem 5rem 2rem 5rem;
 }
 
-.about-us p:hover {
-    
+.about-us p:hover {}
+
+.boxx{
+    /* background: whitesmoke; */
+    height: 20rem;
+    margin: 2rem 8rem;
+
+}
+
+.about-us-box {
+    background: gray;
+    /* box-shadow: 0 0 20px grey; */
+    border-radius: 6px;
+    padding-bottom: 10px;
+    padding-top: 1px;
+    height: 10rem;
+}
+
+.about-us-box-images {
+    display: flex;
+}
+
+
+.about-us-box-containt img {
+    width: 58%;
+    height: 62%;
+    margin: 1rem 4rem;
+}
+
+.about-us-box-containt h2 {
+    color: white;
+    text-align: left;
+    margin: auto 3rem;
+}
+
+.about-us-box-containt p {
+    color: white;
+    text-align: left;
+    margin: 1rem 3rem;
+}
+
+
+.footerr h4 {
+    color: gray;
+    font-size: 10px;
+    text-align: center;
+    margin: 2rem auto 0.1rem auto;
+}
+
+.Vision-heading{
+    text-align: left;
+    margin: 2rem 5rem 2rem 5rem;
+}
+
+.Vision-heading h2{
+    text-decoration: underline;
+    text-align: left;
+    margin: 1rem 5rem auto 5rem;
+}
+
+.VMG-containt{
+    /* background-color: brown; */
+    display: flex;
+}
+
+.Vision{
+    /* background-color: aqua; */
+    height: 20rem;
+    margin: auto 3rem;
+}
+
+.Vision h3{
+    color: brown;
+    /* margin: auto 2rem; */
+}
+
+.Vision p {
+    line-height: 1.9;
+    margin: auto 2rem;
+}
+
+.Vision-pp p{
+    line-height: 1.9;
+    margin: auto 5rem;
 }
